@@ -9,7 +9,7 @@ density:1.2
 }
 this.body=Bodies.circle(x,y,radius,options)
 this.r=radius
-this.image=loadImage("images/stone.png")
+this.image=loadImage("stone.png")
 World.add(world,this.body)
 }
 display(){
